@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ShapeHelper.cpp" />
+    <ClCompile Include="Simulation.cpp" />
+    <ClCompile Include="WorkshopApp.cpp" />
+    <ClCompile Include="Extras\Timing_WIN.cpp" />
+    <ClCompile Include="Extras\UserData.cpp" />
+    <ClCompile Include="Block.cpp">
+      <Filter>GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualDebugger.cpp">
+      <Filter>DrawingComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\HUD.cpp">
+      <Filter>DrawingComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\GLFontRenderer.cpp">
+      <Filter>DrawingComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\DrawObjects.cpp">
+      <Filter>DrawingComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\DebugRenderer.cpp">
+      <Filter>DrawingComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="PinballTable.cpp">
+      <Filter>GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Paddle.cpp">
+      <Filter>GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Motor.cpp">
+      <Filter>GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras\Stream.cpp" />
+    <ClCompile Include="Extras\MyCloth.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShapeHelper.h" />
+    <ClInclude Include="Simulation.h" />
+    <ClInclude Include="Extras\Timing.h" />
+    <ClInclude Include="Extras\UserData.h" />
+    <ClInclude Include="Block.h">
+      <Filter>GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualDebugger.h">
+      <Filter>DrawingComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\HUD.h">
+      <Filter>DrawingComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\GLFontRenderer.h">
+      <Filter>DrawingComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\GLFontData.h">
+      <Filter>DrawingComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\DrawObjects.h">
+      <Filter>DrawingComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\DebugRenderer.h">
+      <Filter>DrawingComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="PinballTable.h">
+      <Filter>GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Paddle.h">
+      <Filter>GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Motor.h">
+      <Filter>GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Extras\Stream.h" />
+    <ClInclude Include="Extras\MyCloth.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameComponents">
+      <UniqueIdentifier>{d4ccd16b-e59f-4595-8b67-b3fbc6b550c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DrawingComponents">
+      <UniqueIdentifier>{26b483bd-7bcf-487d-8f8a-cde007b9087d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
